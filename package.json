@@ -1,10 +1,11 @@
 {
-  "name": "arangoDB",
+  "name": "arangodb-apollo-server",
+  "private": true,
   "version": "1.0.0",
   "main": "index.js",
   "author": "Manuel Ruck",
   "license": "MIT",
-  "private": true,
+  "workspaces": ["apollo"],
   "scripts": {
     "bundle": "rm foxx-graphql.zip & cd ./foxx/graphql/src && zip -r ../../../foxx-graphql.zip ./*"
   },

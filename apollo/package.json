@@ -1,5 +1,5 @@
 {
-  "name": "@mananruck/arrango-apollo-server",
+  "name": "apollo",
   "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Manuel Ruck <github@manuelruck.de>",
